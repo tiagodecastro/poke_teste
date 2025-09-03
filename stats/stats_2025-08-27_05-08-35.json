@@ -1,0 +1,24 @@
+{
+  "started_at": "2025-08-27T05:08:35",
+  "elapsed_s": 17806,
+  "encounters": 963,
+  "caught": 0,
+  "by_name": {
+    "roselia": 64,
+    "zubat": 146,
+    "raticate": 126,
+    "starly": 87,
+    "gastly": 27,
+    "vulpix": 60,
+    "bibarel": 128,
+    "staravia": 27,
+    "chansey": 6,
+    "duskull": 9,
+    "ralts": 10,
+    "psyduck": 272,
+    "mimejr": 1
+  },
+  "targets": 10,
+  "special": 0,
+  "non_target": 953
+}

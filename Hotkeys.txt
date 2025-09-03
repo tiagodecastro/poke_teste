@@ -1,0 +1,9 @@
+Como usar o bot (hotkeys & passos)
+
+F8 — Guardar template de batalha (prime durante a primeira batalha visível).
+
+F9 — Testar score do template (vê no log; ideal: alto em batalha, baixo fora).
+
+F10 — Pausar/Retomar o bot.
+
+F12 — Sair do bot.

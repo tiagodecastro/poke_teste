@@ -1,0 +1,15 @@
+{
+  "started_at": "2025-08-30T19:13:31",
+  "elapsed_s": 272,
+  "encounters": 14,
+  "caught": 0,
+  "by_name": {
+    "machop": 11,
+    "ponyta": 1,
+    "numel": 1,
+    "machoke": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 14
+}

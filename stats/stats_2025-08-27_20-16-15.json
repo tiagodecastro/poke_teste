@@ -1,0 +1,18 @@
+{
+  "started_at": "2025-08-27T20:16:15",
+  "elapsed_s": 1883,
+  "encounters": 25,
+  "caught": 0,
+  "by_name": {
+    "numel": 1,
+    "ponyta": 2,
+    "castform": 2,
+    "mankey": 11,
+    "primeape": 3,
+    "slugma": 2,
+    "spinda": 4
+  },
+  "targets": 14,
+  "special": 0,
+  "non_target": 11
+}

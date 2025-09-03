@@ -1,0 +1,19 @@
+{
+  "started_at": "2025-08-28T03:52:31",
+  "elapsed_s": 19507,
+  "encounters": 867,
+  "caught": 0,
+  "by_name": {
+    "teddiursa": 110,
+    "zubat": 368,
+    "misdreavus": 24,
+    "ursaring": 93,
+    "golduck": 122,
+    "donphan": 74,
+    "larvitar": 5,
+    "pupitar": 71
+  },
+  "targets": 76,
+  "special": 0,
+  "non_target": 791
+}

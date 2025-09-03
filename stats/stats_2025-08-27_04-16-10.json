@@ -1,0 +1,14 @@
+{
+  "started_at": "2025-08-27T04:16:10",
+  "elapsed_s": 77,
+  "encounters": 3,
+  "caught": 0,
+  "by_name": {
+    "spoink": 1,
+    "slugma": 1,
+    "mankey": 1
+  },
+  "targets": 1,
+  "special": 0,
+  "non_target": 2
+}

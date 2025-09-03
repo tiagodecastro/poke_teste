@@ -1,0 +1,16 @@
+{
+  "started_at": "2025-08-28T18:44:35",
+  "elapsed_s": 8075,
+  "encounters": 402,
+  "caught": 0,
+  "by_name": {
+    "magnemite": 194,
+    "rhyhorn": 29,
+    "bronzong": 42,
+    "magneton": 56,
+    "ferroseed": 7
+  },
+  "targets": 7,
+  "special": 0,
+  "non_target": 395
+}

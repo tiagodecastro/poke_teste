@@ -1,0 +1,14 @@
+{
+  "started_at": "2025-08-27T02:06:50",
+  "elapsed_s": 224,
+  "encounters": 7,
+  "caught": 0,
+  "by_name": {
+    "Wild Jigglypuff\n": 4,
+    "Wild Lunatone\n": 1,
+    "\u00bb. Wild Xatu\n": 1
+  },
+  "targets": 1,
+  "special": 0,
+  "non_target": 6
+}

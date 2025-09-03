@@ -1,0 +1,16 @@
+{
+  "started_at": "2025-08-31T12:36:42",
+  "elapsed_s": 172,
+  "encounters": 11,
+  "caught": 0,
+  "by_name": {
+    "geodude": 6,
+    "kricketune": 1,
+    "starly": 2,
+    "bidoof": 1,
+    "staravia": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 11
+}

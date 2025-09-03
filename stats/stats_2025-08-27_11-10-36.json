@@ -1,0 +1,14 @@
+{
+  "started_at": "2025-08-27T11:10:36",
+  "elapsed_s": 51,
+  "encounters": 3,
+  "caught": 0,
+  "by_name": {
+    "bibarel": 1,
+    "vulpix": 1,
+    "zubat": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 3
+}

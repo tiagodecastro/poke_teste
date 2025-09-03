@@ -1,0 +1,16 @@
+{
+  "started_at": "2025-08-28T03:43:19",
+  "elapsed_s": 271,
+  "encounters": 16,
+  "caught": 0,
+  "by_name": {
+    "golduck": 4,
+    "zubat": 8,
+    "teddiursa": 2,
+    "ursaring": 1,
+    "misdreavus": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 16
+}

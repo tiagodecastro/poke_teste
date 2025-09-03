@@ -1,0 +1,24 @@
+{
+  "started_at": "2025-09-03T15:45:23",
+  "elapsed_s": 18243,
+  "encounters": 353,
+  "caught": 0,
+  "by_name": {
+    "zubat": 59,
+    "fearow": 45,
+    "mankey": 59,
+    "venonat": 43,
+    "nidorino": 57,
+    "buizel": 27,
+    "skiddo": 4,
+    "primeape": 37,
+    "sandshrew": 8,
+    "spearow": 2,
+    "raticate": 5,
+    "nidorina": 2,
+    "pidgey": 5
+  },
+  "targets": 59,
+  "special": 0,
+  "non_target": 294
+}

@@ -1,0 +1,17 @@
+{
+  "started_at": "2025-08-31T17:40:23",
+  "elapsed_s": 7052,
+  "encounters": 37,
+  "caught": 0,
+  "by_name": {
+    "geodude": 10,
+    "bidoof": 13,
+    "staravia": 3,
+    "starly": 9,
+    "noctowl": 1,
+    "togepi": 1
+  },
+  "targets": 1,
+  "special": 0,
+  "non_target": 36
+}

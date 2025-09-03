@@ -1,0 +1,12 @@
+{
+  "started_at": "2025-08-31T23:18:24",
+  "elapsed_s": 28,
+  "encounters": 1,
+  "caught": 0,
+  "by_name": {
+    "geodude": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 1
+}

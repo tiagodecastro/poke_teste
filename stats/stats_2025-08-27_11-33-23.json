@@ -1,0 +1,14 @@
+{
+  "started_at": "2025-08-27T11:33:23",
+  "elapsed_s": 143,
+  "encounters": 9,
+  "caught": 0,
+  "by_name": {
+    "wurmple": 4,
+    "zigzagoon": 3,
+    "surskit": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 9
+}

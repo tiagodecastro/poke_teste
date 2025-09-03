@@ -1,0 +1,12 @@
+pydantic>=2.7
+opencv-python>=4.8
+numpy>=1.26
+pytesseract>=0.3.10
+rapidfuzz>=3.9
+keyboard>=0.13.5
+mss>=9.0.1
+pywin32>=306
+
+# pip install -r requirements.txt
+# .\.venv\Scripts\activate.bat
+

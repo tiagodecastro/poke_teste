@@ -1,0 +1,17 @@
+{
+  "started_at": "2025-08-30T19:19:16",
+  "elapsed_s": 2330,
+  "encounters": 30,
+  "caught": 0,
+  "by_name": {
+    "machop": 12,
+    "mankey": 7,
+    "machoke": 7,
+    "ponyta": 1,
+    "numel": 1,
+    "torkoal": 2
+  },
+  "targets": 7,
+  "special": 0,
+  "non_target": 23
+}

@@ -1,0 +1,13 @@
+{
+  "started_at": "2025-08-27T05:02:01",
+  "elapsed_s": 205,
+  "encounters": 5,
+  "caught": 0,
+  "by_name": {
+    "zubat": 3,
+    "gastly": 2
+  },
+  "targets": 2,
+  "special": 0,
+  "non_target": 3
+}

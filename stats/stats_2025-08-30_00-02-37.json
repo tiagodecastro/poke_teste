@@ -1,0 +1,14 @@
+{
+  "started_at": "2025-08-30T00:02:37",
+  "elapsed_s": 7233,
+  "encounters": 393,
+  "caught": 0,
+  "by_name": {
+    "primeape": 12,
+    "castform": 1,
+    "machoke": 56
+  },
+  "targets": 12,
+  "special": 0,
+  "non_target": 381
+}

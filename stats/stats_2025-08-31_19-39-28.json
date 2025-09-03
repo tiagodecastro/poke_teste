@@ -1,0 +1,20 @@
+{
+  "started_at": "2025-08-31T19:39:28",
+  "elapsed_s": 6072,
+  "encounters": 398,
+  "caught": 0,
+  "by_name": {
+    "starly": 45,
+    "bidoof": 155,
+    "slurpuff": 5,
+    "staravia": 18,
+    "geodude": 118,
+    "kricketune": 22,
+    "noctowl": 25,
+    "togepi": 7,
+    "bonsly": 3
+  },
+  "targets": 7,
+  "special": 0,
+  "non_target": 391
+}

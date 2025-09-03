@@ -1,0 +1,18 @@
+{
+  "started_at": "2025-08-27T20:47:46",
+  "elapsed_s": 3785,
+  "encounters": 256,
+  "caught": 0,
+  "by_name": {
+    "bronzong": 38,
+    "bronzor": 28,
+    "magneton": 27,
+    "klink": 1,
+    "rhyhorn": 20,
+    "mawile": 2,
+    "ferroseed": 1
+  },
+  "targets": 1,
+  "special": 0,
+  "non_target": 255
+}

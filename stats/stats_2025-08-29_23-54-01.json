@@ -1,0 +1,12 @@
+{
+  "started_at": "2025-08-29T23:54:01",
+  "elapsed_s": 190,
+  "encounters": 10,
+  "caught": 0,
+  "by_name": {
+    "machop": 2
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 10
+}

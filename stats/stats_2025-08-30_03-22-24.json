@@ -1,0 +1,20 @@
+{
+  "started_at": "2025-08-30T03:22:24",
+  "elapsed_s": 45487,
+  "encounters": 933,
+  "caught": 0,
+  "by_name": {
+    "machoke": 119,
+    "machop": 424,
+    "numel": 99,
+    "ponyta": 77,
+    "mankey": 149,
+    "sawk": 8,
+    "torkoal": 23,
+    "tyrogue": 21,
+    "throh": 13
+  },
+  "targets": 149,
+  "special": 0,
+  "non_target": 784
+}

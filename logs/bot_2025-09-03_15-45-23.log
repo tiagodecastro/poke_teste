@@ -1,0 +1,1204 @@
+15:45:23 | INFO | Tesseract: C:\Program Files\Tesseract-OCR\tesseract.EXE
+15:45:23 | INFO | CAP_WIN=(3948, 684, 348, 265) NAME_ROI=(3394, 136, 532, 50) UNION=(3394, 136, 902, 813)
+15:45:23 | INFO | [Setup] Ativar mount com tecla '1'
+15:45:23 | INFO | PAUSADO
+15:45:26 | INFO | Template guardado: templates\battle\default.png
+15:45:27 | INFO | [BATTLE TEST] score=1.000 thr=0.9
+15:45:29 | INFO | RETOMADO
+15:45:30 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:45:32 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:45:32 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:45:34 | INFO | PAUSADO
+15:45:56 | INFO | RETOMADO
+15:45:56 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:45:56 | INFO | [NON-TARGET] Fuga OK (0x).
+15:46:08 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:46:09 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:46:09 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:46:25 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:46:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:46:27 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:46:40 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:46:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:46:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:46:56 | INFO | [ENCOUNTER] Alvo: 'mankey'
+15:47:05 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+15:47:11 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+15:47:18 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+15:47:20 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+15:47:31 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+15:47:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:47:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:47:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:47:50 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:47:52 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:47:52 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:48:10 | INFO | [ENCOUNTER] Alvo: 'mankey'
+15:48:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+15:48:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+15:48:31 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+15:48:34 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+15:48:45 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:48:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:48:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:48:58 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:48:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:48:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:49:15 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:49:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:49:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:49:29 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:49:30 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:49:30 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:49:42 | INFO | [ENCOUNTER] Alvo: 'mankey'
+15:49:52 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+15:49:58 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+15:50:03 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+15:50:06 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+15:50:16 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+15:50:17 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:50:17 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:50:30 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:50:31 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:50:32 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:50:57 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:50:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:50:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:51:12 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+15:51:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:51:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:51:31 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:51:32 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:51:32 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:51:46 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:51:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:51:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:52:00 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+15:52:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:52:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:52:15 | INFO | [ENCOUNTER] Não-alvo: 'skiddo'.
+15:52:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:52:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:52:29 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:52:30 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:52:30 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:52:43 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:52:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:52:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:52:57 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:52:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:52:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:53:11 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:53:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:53:12 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:53:24 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:53:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:53:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:53:39 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:53:40 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:53:40 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:53:52 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:53:53 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:53:53 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:54:09 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:54:10 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:54:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:54:22 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:54:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:54:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:54:37 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:54:38 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:54:38 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:54:51 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:54:52 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:54:52 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:55:07 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:55:08 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:55:09 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:55:23 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:55:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:55:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:55:38 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+15:55:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:55:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:55:51 | INFO | [ENCOUNTER] Alvo: 'mankey'
+15:56:01 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+15:56:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+15:56:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+15:56:15 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+15:56:28 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:56:29 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:56:29 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:56:43 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+15:56:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:56:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:57:00 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:57:02 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:57:02 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:57:14 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:57:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:57:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:57:30 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+15:57:31 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:57:31 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:57:45 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+15:57:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:57:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:57:58 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:57:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:57:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:58:12 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+15:58:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:58:14 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:58:27 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:58:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:58:29 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:58:45 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+15:58:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:58:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:59:00 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:59:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:59:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:59:15 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+15:59:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:59:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:59:34 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+15:59:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:59:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+15:59:54 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+15:59:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+15:59:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:00:08 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+16:00:09 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:00:09 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:00:23 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+16:00:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:00:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:00:37 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:00:38 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:00:38 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:00:55 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:01:05 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:01:11 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:01:17 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:01:19 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:01:34 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:01:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:01:36 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:01:48 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+16:01:49 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:01:49 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:02:03 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:02:04 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:02:04 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:02:17 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:02:18 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:02:18 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:02:31 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+16:02:32 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:02:32 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:02:44 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:02:45 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:02:45 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:03:01 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:03:02 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:03:02 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:03:15 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+16:03:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:03:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:03:28 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:03:38 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:03:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:03:49 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:03:52 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:04:12 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+16:04:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:04:14 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:04:27 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+16:04:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:04:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:04:39 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:04:49 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:04:54 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:05:00 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:05:04 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:05:14 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:05:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:05:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:05:30 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:05:40 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:05:46 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:05:51 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:05:54 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:06:08 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:06:09 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:06:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:06:24 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+16:06:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:06:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:06:40 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:06:42 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:06:42 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:06:57 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:07:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:07:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:07:18 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:07:21 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:07:32 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+16:07:34 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:07:34 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:07:45 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+16:07:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:07:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:08:00 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+16:08:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:08:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:08:13 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:08:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:08:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:08:27 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:08:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:08:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:08:42 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:08:43 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:08:43 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:08:56 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:08:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:08:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:09:20 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+16:09:21 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:09:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:09:34 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:09:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:09:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:09:50 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:09:51 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:09:51 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:10:05 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+16:10:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:10:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:10:18 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+16:10:19 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:10:19 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:10:33 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:10:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:10:48 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:10:54 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:10:57 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:11:07 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:11:08 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:11:08 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:11:23 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+16:11:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:11:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:11:38 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:11:48 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:11:53 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:11:59 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:12:02 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:12:13 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:12:14 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:12:14 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:12:28 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+16:12:29 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:12:29 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:12:43 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+16:12:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:12:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:12:57 | INFO | [ENCOUNTER] Não-alvo: 'spearow'.
+16:12:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:12:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:13:11 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:13:20 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:13:26 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:13:31 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:13:34 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:13:46 | INFO | [ENCOUNTER] Não-alvo: 'spearow'.
+16:13:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:13:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:14:03 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:14:13 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:14:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:14:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:14:27 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:14:39 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:14:40 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:14:40 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:14:54 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:14:56 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:14:56 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:15:10 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+16:15:11 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:15:11 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:15:23 | INFO | [ENCOUNTER] Não-alvo: 'raticate'.
+16:15:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:15:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:15:40 | INFO | [ENCOUNTER] Não-alvo: 'raticate'.
+16:15:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:15:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:15:55 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+16:15:56 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:15:56 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:16:08 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:16:09 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:16:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:16:25 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+16:16:27 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:16:27 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:16:43 | INFO | [ENCOUNTER] Não-alvo: 'raticate'.
+16:16:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:16:45 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:16:57 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:17:06 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:17:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:17:18 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:17:23 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+16:17:29 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+16:17:32 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+16:17:45 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+16:17:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+16:17:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+16:18:00 | INFO | [ENCOUNTER] Alvo: 'mankey'
+16:18:09 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+16:18:14 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+16:18:20 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+16:18:24 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:14:16 | INFO | PAUSADO
+19:14:32 | INFO | RETOMADO
+19:14:42 | INFO | [ENCOUNTER] Não-alvo: 'nidorina'.
+19:14:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:14:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:14:57 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:14:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:14:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:15:11 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:15:20 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:15:26 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:15:32 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:15:34 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:15:46 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+19:15:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:15:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:16:00 | INFO | [ENCOUNTER] Não-alvo: 'pidgey'.
+19:16:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:16:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:16:15 | INFO | [ENCOUNTER] Não-alvo: 'pidgey'.
+19:16:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:16:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:16:28 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:16:30 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:16:30 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:16:43 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:16:53 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:16:59 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:17:05 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:17:07 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:17:21 | INFO | [ENCOUNTER] Não-alvo: 'pidgey'.
+19:17:22 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:17:22 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:17:38 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:17:47 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:17:54 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:17:59 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:18:02 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:18:14 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:18:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:18:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:18:28 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:18:29 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:18:29 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:18:43 | INFO | [ENCOUNTER] Não-alvo: 'pidgey'.
+19:18:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:18:45 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:18:57 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:19:05 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:19:11 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:19:17 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:19:21 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:19:34 | INFO | [ENCOUNTER] Não-alvo: 'nidorina'.
+19:19:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:19:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:19:50 | INFO | [ENCOUNTER] Não-alvo: 'raticate'.
+19:19:51 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:19:51 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:20:05 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+19:20:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:20:07 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:20:19 | INFO | [ENCOUNTER] Não-alvo: 'pidgey'.
+19:20:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:20:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:20:32 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+19:20:34 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:20:34 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:20:46 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:20:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:20:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:21:03 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:21:13 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:21:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:21:24 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:21:28 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:21:39 | INFO | [ENCOUNTER] Não-alvo: 'raticate'.
+19:21:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:21:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:21:54 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:22:04 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:22:10 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:22:16 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:22:18 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:22:32 | INFO | [ENCOUNTER] Não-alvo: 'sandshrew'.
+19:22:34 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:22:34 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:22:46 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:22:55 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:23:01 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:23:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:23:14 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+19:23:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+19:23:23 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:23:36 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:23:45 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:23:51 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:23:57 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:23:59 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:24:11 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:24:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:24:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:24:29 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:24:30 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:24:30 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:24:41 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:24:43 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:24:43 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:24:56 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:24:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:24:57 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:25:17 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:25:18 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:25:18 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:25:34 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:25:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:25:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:25:48 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:25:49 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:25:50 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:26:11 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:26:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:26:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:26:25 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:26:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:26:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:26:41 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:26:42 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:26:42 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:26:55 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:26:56 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:26:56 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:27:09 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:27:10 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:27:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:27:26 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:27:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:27:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:27:45 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:27:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:27:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:27:59 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:28:00 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:28:00 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:28:12 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:28:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:28:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:28:25 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:28:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:28:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:28:42 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:28:43 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:28:43 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:28:57 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:28:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:28:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:29:11 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:29:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:29:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:29:26 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:29:27 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:29:27 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:29:41 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:29:51 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:29:57 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:30:03 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:30:06 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:30:19 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:30:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:30:20 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:30:33 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:30:34 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:30:34 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:30:47 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:30:48 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:30:49 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:31:07 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:31:09 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:31:09 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:31:24 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:31:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:31:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:31:38 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:31:40 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:31:40 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:31:54 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:31:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:31:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:32:18 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:32:27 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:32:33 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:32:40 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:32:42 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:32:52 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:32:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:32:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:33:10 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:33:11 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:33:11 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:33:24 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:33:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:33:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:33:41 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:33:42 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:33:42 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:33:57 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:33:58 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:33:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:34:10 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:34:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:34:12 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:34:26 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:34:27 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:34:27 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:34:41 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:34:43 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:34:43 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:34:58 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:34:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:34:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:35:13 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:35:14 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:35:14 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:35:27 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:35:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:35:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:35:46 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:35:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:35:48 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:36:00 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:36:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:36:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:36:18 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:36:19 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:36:19 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:36:33 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:36:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:36:50 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:36:55 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:36:58 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:37:10 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:37:11 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:37:12 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:37:24 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:37:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:37:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:37:38 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:37:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:37:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:37:53 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:37:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:37:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:38:06 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:38:15 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:38:21 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:38:27 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:38:29 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:38:40 | INFO | [ENCOUNTER] Não-alvo: 'skiddo'.
+19:38:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:38:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:38:53 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:38:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:38:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:39:10 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:39:11 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:39:12 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:39:27 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:39:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:39:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:39:41 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:39:42 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:39:42 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:39:58 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:39:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:39:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:40:14 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:40:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:40:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:40:30 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:40:40 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:40:46 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:40:53 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:40:55 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:41:04 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:41:05 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:41:05 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:41:21 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:41:22 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:41:22 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:41:38 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:41:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:41:40 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:41:52 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:42:01 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:42:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:42:13 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:42:16 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:42:29 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:42:30 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:42:31 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:42:44 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:42:45 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:42:45 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:42:57 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:43:06 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:43:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:43:18 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:43:21 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:43:32 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:43:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:43:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:43:53 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:43:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:43:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:44:07 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:44:08 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:44:08 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:44:23 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:44:32 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:44:39 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:44:44 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:44:47 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:44:58 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:45:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:45:13 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:45:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:45:22 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:45:32 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:45:34 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:45:34 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:45:48 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+19:45:49 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:45:49 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:46:04 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:46:05 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:46:05 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:46:18 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:46:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:46:20 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:46:34 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:46:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:46:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:46:48 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:46:49 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:46:49 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:47:02 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:47:04 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:47:04 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:47:18 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:47:19 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:47:19 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:47:32 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:47:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:47:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:47:45 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:47:55 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:48:00 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:48:06 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:48:09 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:48:21 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:48:23 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:48:23 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:48:37 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:48:38 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:48:38 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:48:55 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:48:56 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:48:56 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:49:09 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:49:10 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:49:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:49:23 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:49:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:49:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:49:37 | INFO | [ENCOUNTER] Não-alvo: 'skiddo'.
+19:49:38 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:49:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:49:56 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:49:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:49:58 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:50:11 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:50:20 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:50:26 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:50:32 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:50:35 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:50:52 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:50:53 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:50:53 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:51:07 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:51:16 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:51:23 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:51:29 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:51:32 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:51:45 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:51:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:51:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:52:01 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:52:02 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:52:02 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:52:16 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:52:17 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:52:17 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:52:30 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:52:40 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:52:46 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:52:52 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:52:54 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:53:05 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+19:53:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:53:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:53:19 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:53:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:53:20 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:53:35 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:53:37 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:53:37 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:53:50 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:53:51 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:53:51 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:54:04 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:54:05 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:54:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:54:19 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:54:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:54:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:54:34 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:54:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:54:36 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:54:51 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:54:52 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:54:52 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:55:07 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:55:16 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:55:22 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:55:28 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:55:31 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:55:40 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:55:50 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:55:56 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:56:02 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:56:05 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:56:14 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:56:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:56:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:56:32 | INFO | [ENCOUNTER] Não-alvo: 'skiddo'.
+19:56:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:56:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:56:46 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:56:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:56:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:57:02 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:57:03 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:57:03 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:57:15 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:57:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:57:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:57:29 | INFO | [ENCOUNTER] Alvo: 'mankey'
+19:57:39 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+19:57:44 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+19:57:50 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+19:57:53 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+19:58:05 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+19:58:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:58:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:58:23 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:58:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:58:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:58:38 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:58:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:58:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:58:59 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:59:00 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:59:00 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:59:14 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+19:59:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:59:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:59:31 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+19:59:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:59:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+19:59:49 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+19:59:50 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+19:59:50 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:00:02 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:00:03 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:00:03 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:00:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:00:19 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:00:20 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:00:20 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:00:40 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:00:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:00:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:00:54 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:00:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:00:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:01:06 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:01:15 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:01:21 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:01:27 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:01:31 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:01:49 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:01:50 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:01:50 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:02:04 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:02:05 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:02:05 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:02:23 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:02:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:02:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:02:38 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:02:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:02:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:03:02 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:03:03 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:03:03 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:03:23 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:03:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:03:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:03:40 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:03:41 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:03:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:03:54 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:03:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:03:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:04:09 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:04:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:04:24 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:04:31 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:04:37 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:04:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+20:04:45 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:04:58 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:04:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:04:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:05:11 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:05:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:05:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:05:25 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:05:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:05:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:05:43 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:05:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:05:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:05:56 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:05:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:05:57 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:06:14 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:06:15 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:06:15 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:06:28 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:06:37 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:06:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:06:49 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:06:52 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:07:02 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:07:03 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:07:03 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:07:15 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:07:24 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:07:31 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:07:37 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:07:39 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:07:49 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:07:58 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:08:03 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:08:09 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:08:14 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:08:18 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:08:30 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:08:39 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:08:45 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:08:50 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:08:54 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:09:05 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:09:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:09:06 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:09:22 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:09:23 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:09:23 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:09:36 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:09:45 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:09:51 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:09:56 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:09:59 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:10:10 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:10:12 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:10:12 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:10:28 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:10:29 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:10:30 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:10:50 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:10:59 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:11:05 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:11:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:11:14 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:11:28 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:11:29 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:11:29 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:11:42 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:11:43 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:11:43 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:11:58 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:11:59 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:11:59 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:12:16 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:12:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:12:31 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:12:37 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:12:43 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:12:49 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+20:12:52 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:13:03 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:13:04 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:13:05 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:13:21 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:13:30 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:13:35 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:13:41 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:13:44 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:13:56 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:13:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:13:57 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:14:09 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:14:10 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:14:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:14:24 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:14:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:14:25 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:14:38 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:14:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:14:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:14:51 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:15:01 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:15:06 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:15:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:15:15 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:15:24 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:15:25 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:15:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:15:39 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:15:48 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:15:53 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:16:00 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:16:06 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:16:12 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+20:16:14 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:16:34 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:16:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:16:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:16:48 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:16:50 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:16:50 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:17:02 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:17:03 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:17:03 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:17:17 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:17:18 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:17:18 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:17:38 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:17:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:17:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:17:54 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:17:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:17:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:18:09 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:18:10 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:18:10 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:18:23 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:18:24 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:18:24 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:18:38 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:18:39 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:18:39 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:18:53 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:18:55 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:18:55 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:19:14 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:19:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:19:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:19:29 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:19:38 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:19:44 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:19:50 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:19:52 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:20:03 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:20:04 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:20:04 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:20:20 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:20:21 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:20:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:20:32 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:20:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:20:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:20:46 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:20:56 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:21:01 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:21:07 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:21:10 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:21:25 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:21:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:21:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:21:39 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:21:40 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:21:41 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:21:53 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:21:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:21:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:22:08 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:22:18 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:22:23 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:22:29 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:22:35 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:22:40 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+20:22:46 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:22:48 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:22:58 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:23:04 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:23:10 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:23:16 | INFO | [CATCH] Batalha continua. Repetir combo de captura (4/5).
+20:23:21 | INFO | [CATCH] Batalha continua. Repetir combo de captura (5/5).
+20:23:27 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:23:39 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:23:40 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:23:40 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:23:53 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:23:54 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:23:54 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:24:10 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:24:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:24:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:24:30 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:24:35 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:24:45 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:24:46 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:24:46 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:24:59 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:25:00 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:25:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:25:15 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:25:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:25:30 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:25:37 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:25:39 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:25:51 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:25:52 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:25:52 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:26:05 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:26:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:26:07 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:26:20 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:26:21 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:26:22 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:26:34 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:26:35 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:26:35 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:26:52 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:26:53 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:26:53 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:27:07 | INFO | [ENCOUNTER] Não-alvo: 'buizel'.
+20:27:08 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:27:08 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:27:20 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:27:21 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:27:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:27:37 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:27:46 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:27:52 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:27:58 | INFO | [CATCH] Batalha continua. Repetir combo de captura (3/5).
+20:28:00 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:28:12 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:28:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:28:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:28:27 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:28:28 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:28:28 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:28:46 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:28:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:28:47 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:29:00 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:29:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:29:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:29:15 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:29:16 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:29:16 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:29:32 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:29:33 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:29:33 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:29:47 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:29:49 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:29:49 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:30:04 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:30:05 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:30:05 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:30:25 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:30:26 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:30:26 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:30:43 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:30:44 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:30:44 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:30:59 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:31:00 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:31:00 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:31:12 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:31:13 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:31:13 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:31:30 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:31:31 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:31:32 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:31:46 | INFO | [ENCOUNTER] Não-alvo: 'fearow'.
+20:31:48 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:31:48 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:32:00 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:32:01 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:32:01 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:32:20 | INFO | [ENCOUNTER] Não-alvo: 'nidorino'.
+20:32:21 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:32:21 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:32:41 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:32:42 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:32:42 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:32:56 | INFO | [ENCOUNTER] Não-alvo: 'primeape'.
+20:32:57 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:32:57 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:33:09 | INFO | [ENCOUNTER] Alvo: 'mankey'
+20:33:19 | INFO | [CATCH] Batalha continua. Repetir combo de captura (1/5).
+20:33:25 | INFO | [CATCH] Batalha continua. Repetir combo de captura (2/5).
+20:33:31 | INFO | [RESOLVE] Batalha terminou — regressar a PATROL.
+20:48:26 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:48:27 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:48:27 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:48:46 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:48:47 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:48:48 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:49:05 | INFO | [ENCOUNTER] Não-alvo: 'zubat'.
+20:49:06 | INFO | [NON-TARGET] Fuga ainda em batalha (2x).
+20:49:07 | INFO | [NON-TARGET] Repetir fuga (fallback).
+20:49:21 | INFO | [ENCOUNTER] Não-alvo: 'venonat'.
+20:49:22 | INFO | [NON-TARGET] Fuga OK (2x).
+20:49:26 | INFO | Saída solicitada.
+20:49:26 | INFO | Loop terminado.

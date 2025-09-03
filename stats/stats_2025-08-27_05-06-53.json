@@ -1,0 +1,15 @@
+{
+  "started_at": "2025-08-27T05:06:53",
+  "elapsed_s": 85,
+  "encounters": 5,
+  "caught": 0,
+  "by_name": {
+    "roselia": 1,
+    "zubat": 2,
+    "gastly": 1,
+    "bibarel": 1
+  },
+  "targets": 0,
+  "special": 0,
+  "non_target": 5
+}

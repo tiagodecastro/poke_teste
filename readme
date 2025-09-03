@@ -1,0 +1,14 @@
+cd C:\Users\<tu>\Desktop\Pokemon-bot
+
+# criar venv
+python -m venv .venv
+
+# se o PowerShell bloquear scripts, permite:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+# ativar venv
+.\.venv\Scripts\Activate.ps1
+
+# instalar dependências
+pip install --upgrade pip
+pip install -r requirements.txt
