@@ -1,14 +1,18 @@
 # bot_pokemon.py
-# Patrulha A/D, batalha por template, OCR do nome via Otsu+PSM7.
-# Suporta 'special' (shiny/summer) e combos por espécie (setup/catch).
-# F8 grava template, F9 testa template, F10 pausa, F12 sai.
-# Atualizações:
-# - Catch guard: após lançar a bola, espera mínima + adaptativa; retry só após floor.
-# - Fuga verificada rápida (2x) + fallback.
-# - Log por sessão (retenção máx. 5).
-# - ROIs recalculados dinamicamente (quando relativos à janela).
+# Versão reconstruída: usa PostMessage (VK + scancode) para enviar teclas ao PROClient.
+# Mantém templates, OCR (Otsu + PSM7), combos por espécie, special keywords, stats, hotkeys.
 
-import argparse, time, random, pathlib, logging, json, threading, queue, re, shutil
+import argparse
+import time
+import random
+import pathlib
+import logging
+import logging.handlers
+import json
+import threading
+import queue
+import re
+import shutil
 from typing import Tuple, Dict, List, Optional
 from datetime import datetime
 from collections import defaultdict, Counter, deque
@@ -18,12 +22,14 @@ import cv2
 import pytesseract
 import keyboard
 import win32gui
+import win32con
+import pywintypes
 from mss import mss
 
 SCRIPT_DIR = pathlib.Path(__file__).resolve().parent
 def now_ts(): return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
- # ---------------- Config ----------------
+# ---------------- Utilities for config and ROIs ----------------
 def get_client_rect_by_title(title: str):
     hwnd = win32gui.FindWindow(None, title)
     if not hwnd: return None
@@ -31,6 +37,7 @@ def get_client_rect_by_title(title: str):
     left, top = win32gui.ClientToScreen(hwnd, (left, top))
     right, bottom = win32gui.ClientToScreen(hwnd, (right, bottom))
     return (left, top, right-left, bottom-top)
+
 def read_jsonc(path: pathlib.Path) -> Dict:
     text = path.read_text(encoding="utf-8")
     text = re.sub(r"//.*", "", text)
@@ -45,9 +52,9 @@ def _canon_species_key(k: str) -> str:
     return s
 
 def roi_to_screen(roi: Tuple[int,int,int,int], title: str, absolute: bool):
-    if absolute: return roi
+    if absolute: return tuple(roi)
     rect = get_client_rect_by_title(title)
-    if rect is None: return roi
+    if rect is None: return tuple(roi)
     x,y,_,_ = rect
     rx, ry, rw, rh = roi
     return (x+rx, y+ry, rw, rh)
@@ -60,72 +67,94 @@ def union_rect(a, b):
 
 def _grab_abs(x, y, w, h):
     with mss() as sct:
-        m = {"left": x, "top": y, "width": w, "height": h}
+        m = {"left": int(x), "top": int(y), "width": int(w), "height": int(h)}
         im = np.asarray(sct.grab(m))[:, :, :3]
     return im
 
+# ---------------- Config object ----------------
 class Cfg:
     def __init__(self, d: Dict):
         g = d.get
-        self.window_title = g("window_title", "PROClient")
-        self.roi_is_absolute = bool(g("roi_is_absolute", True))
+        # copy keys
+        for k, v in d.items():
+            setattr(self, k, v)
 
-        self.battle_template_name = g("battle_template_name", "default")
-        self.thr_battle = float(g("thr_battle", 0.90))
-        self.battle_enter_consec = int(g("battle_enter_consec", 2))
-        self.battle_exit_consec  = int(g("battle_exit_consec", 2))
+        # defaults (mirror do ficheiro original)
+        self.window_title = getattr(self, "window_title", "PROClient")
+        self.roi_is_absolute = bool(getattr(self, "roi_is_absolute", True))
 
-        self.poll_interval_s = float(g("poll_interval_s", 0.20))
-        self.change_mse_thr  = float(g("change_mse_thr", 15.0))
+        self.battle_template_name = getattr(self, "battle_template_name", "default")
+        self.thr_battle = float(getattr(self, "thr_battle", 0.90))
+        self.battle_enter_consec = int(getattr(self, "battle_enter_consec", 2))
+        self.battle_exit_consec  = int(getattr(self, "battle_exit_consec", 2))
 
-        # ROIs
-        self.name_roi   = tuple(g("name_roi",   [3420, 234, 360, 36]))
-        self.window_roi = tuple(g("window_roi", [3845, 650, 260, 210]))
+        self.poll_interval_s = float(getattr(self, "poll_interval_s", 0.20))
+        self.change_mse_thr  = float(getattr(self, "change_mse_thr", 15.0))
 
-        # Movimento
-        self.move_base_s  = float(g("move_base_s", 0.45))
-        self.move_jitter_s = float(g("move_jitter_s", 0.10))
-        self.key_delay_s  = tuple(g("key_delay_s", [0.45, 0.95]))
+        # ROIs (keeps as lists/tuples)
+        self.name_roi   = tuple(getattr(self, "name_roi",   [3420, 234, 360, 36]))
+        self.window_roi = tuple(getattr(self, "window_roi", [3845, 650, 260, 210]))
 
-        # Timings
-        self.encounter_delay_s     = tuple(g("encounter_delay_s",     [1.0, 2.0]))
-        self.wait_between_combos_s = tuple(g("wait_between_combos_s", [8.0, 9.0]))   # teto adaptativo
-        self.post_combo2_verify_s  = tuple(g("post_combo2_verify_s",  [1.0, 1.8]))   # ainda usado noutros fluxos
+        # Movement and timings
+        self.move_base_s  = float(getattr(self, "move_base_s", 0.45))
+        self.move_jitter_s = float(getattr(self, "move_jitter_s", 0.10))
+        self.key_delay_s  = tuple(getattr(self, "key_delay_s", [0.45, 0.95]))
 
-        # Catch guard (NOVO)
-        self.catch_resolve_min_s   = tuple(g("catch_resolve_min_s",   [3.2, 3.8]))   # mínimo após lançar bola
-        self.retry_floor_s         = float(g("retry_floor_s",         3.0))          # não re-tentar antes disto
+        self.encounter_delay_s     = tuple(getattr(self, "encounter_delay_s",     [1.0, 2.0]))
+        self.wait_between_combos_s = tuple(getattr(self, "wait_between_combos_s", [8.0, 9.0]))
+        self.post_combo2_verify_s  = tuple(getattr(self, "post_combo2_verify_s",  [1.0, 1.8]))
 
-        self.recover_s             = tuple(g("recover_s",             [0.5, 1.0]))
-        self.non_target_period_s   = tuple(g("non_target_period_s",   [1.8, 2.3]))
+        # Catch guard
+        self.catch_resolve_min_s   = tuple(getattr(self, "catch_resolve_min_s",   [3.2, 3.8]))
+        self.retry_floor_s         = float(getattr(self, "retry_floor_s",         3.0))
 
+        self.recover_s             = tuple(getattr(self, "recover_s",             [0.5, 1.0]))
+        self.non_target_period_s   = tuple(getattr(self, "non_target_period_s",   [1.8, 2.3]))
 
-def _to_gray(bgr):
-    return cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
+        # directories and behavior
+        self.tesseract_cmd = getattr(self, "tesseract_cmd", None)
+        self.templates_dir = getattr(self, "templates_dir", "templates/battle")
+        self.stats_dir = getattr(self, "stats_dir", "stats")
+        self.mount_key = getattr(self, "mount_key", "null")
+        self.non_target_key = getattr(self, "non_target_key", "4")
+        self.patrol_keys = getattr(self, "patrol_keys", ["a","d"])
+        self.dry_run = bool(getattr(self, "dry_run", False))
+        self.stats_flush_s = float(getattr(self, "stats_flush_s", 5.0))
 
-# ---------------- OCR ----------------
-TESS_LANG = "eng"
-TESS_CFG_LINE = "--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz -c preserve_interword_spaces=1"
+        # logging
+        self.log_level = getattr(self, "log_level", "INFO")
+        self.log_file = getattr(self, "log_file", "bot.log")
+        self.log_max_bytes = int(getattr(self, "log_max_bytes", 1048576))
+        self.log_backup_count = int(getattr(self, "log_backup_count", 3))
 
+        # combos and targets
+        self.combo_setup = getattr(self, "combo_setup", ["1","2"])
+        self.combo_catch = getattr(self, "combo_catch", ["3","1"])
+        self.target_combos = getattr(self, "target_combos", { "setup": ["1","2"], "catch": ["3","1"] })
+        self.targets = getattr(self, "targets", {})
+        self.special_keywords = getattr(self, "special_keywords", ["shiny","summer"])
+
+# ---------------- Helper: robust tesseract detection ----------------
 def detect_tesseract(cfg: Cfg) -> Optional[str]:
     p = shutil.which("tesseract")
     if p: return p
-    if cfg.tesseract_cmd:
+    if getattr(cfg, "tesseract_cmd", None):
         pth = pathlib.Path(cfg.tesseract_cmd)
         if pth.is_absolute():
             return str(pth)
-        # Se for relativo, resolve a partir do diretório do projeto
         rel = pathlib.Path(SCRIPT_DIR) / pth
         if rel.exists(): return str(rel)
     for c in [r"Tesseract-OCR/tesseract.exe", r"Tesseract-OCR/tesseract.exe"]:
-        # Tenta relativo ao projeto
         rel = pathlib.Path(SCRIPT_DIR) / c
         if rel.exists(): return str(rel)
-    # Por fim, tenta nos locais padrão do Windows
     for c in [r"C:\Program Files\Tesseract-OCR\tesseract.exe",
               r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"]:
         if pathlib.Path(c).exists(): return c
     return None
+
+# ---------------- OCR helpers ----------------
+TESS_LANG = "eng"
+TESS_CFG_LINE = "--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz -c preserve_interword_spaces=1"
 
 def pre_otsu_line(gray: np.ndarray) -> np.ndarray:
     up = cv2.resize(gray, None, fx=2.5, fy=2.5, interpolation=cv2.INTER_LINEAR)
@@ -156,7 +185,7 @@ def normalize_for_match(s: str) -> str:
 def name_has_wild(text_norm: str) -> bool:
     return bool(re.search(r"\bwild\b", text_norm))
 
-# ---------------- Template ----------------
+# ---------------- Template management ----------------
 def save_battle_template(gray_window: np.ndarray, name: str, dir_path: pathlib.Path):
     path = dir_path / f"{name}.png"
     cv2.imwrite(str(path), gray_window)
@@ -280,20 +309,161 @@ TEST_TPL_HK = "f9"
 
 log = logging.getLogger("bot")
 
-# ---------------- Ações ----------------
+# ---------------- Key sending (PostMessage + scancode) ----------------
+# Comprehensive mapping (VK, scancode). scancode values are typical set 1 for US layout.
+# Add mappings as needed.
+KEY_MAP = {
+    # letters
+    "a": (0x41, 0x1E),
+    "b": (0x42, 0x30),
+    "c": (0x43, 0x2E),
+    "d": (0x44, 0x20),
+    "e": (0x45, 0x12),
+    "f": (0x46, 0x21),
+    "g": (0x47, 0x22),
+    "h": (0x48, 0x23),
+    "i": (0x49, 0x17),
+    "j": (0x4A, 0x24),
+    "k": (0x4B, 0x25),
+    "l": (0x4C, 0x26),
+    "m": (0x4D, 0x32),
+    "n": (0x4E, 0x31),
+    "o": (0x4F, 0x18),
+    "p": (0x50, 0x19),
+    "q": (0x51, 0x10),
+    "r": (0x52, 0x13),
+    "s": (0x53, 0x1F),
+    "t": (0x54, 0x14),
+    "u": (0x55, 0x16),
+    "v": (0x56, 0x2F),
+    "w": (0x57, 0x11),
+    "x": (0x58, 0x2D),
+    "y": (0x59, 0x15),
+    "z": (0x5A, 0x2C),
+
+    # digits
+    "0": (0x30, 0x0B),
+    "1": (0x31, 0x02),
+    "2": (0x32, 0x03),
+    "3": (0x33, 0x04),
+    "4": (0x34, 0x05),
+    "5": (0x35, 0x06),
+    "6": (0x36, 0x07),
+    "7": (0x37, 0x08),
+    "8": (0x38, 0x09),
+    "9": (0x39, 0x0A),
+
+    # arrows
+    "left": (win32con.VK_LEFT, 0x4B),
+    "right": (win32con.VK_RIGHT, 0x4D),
+    "up": (win32con.VK_UP, 0x48),
+    "down": (win32con.VK_DOWN, 0x50),
+
+    # function keys
+    "f1": (win32con.VK_F1, 0x3B),
+    "f2": (win32con.VK_F2, 0x3C),
+    "f3": (win32con.VK_F3, 0x3D),
+    "f4": (win32con.VK_F4, 0x3E),
+    "f5": (win32con.VK_F5, 0x3F),
+    "f6": (win32con.VK_F6, 0x40),
+    "f7": (win32con.VK_F7, 0x41),
+    "f8": (win32con.VK_F8, 0x42),
+    "f9": (win32con.VK_F9, 0x43),
+    "f10": (win32con.VK_F10, 0x44),
+    "f11": (win32con.VK_F11, 0x57),
+    "f12": (win32con.VK_F12, 0x58),
+
+    # others
+    "enter": (win32con.VK_RETURN, 0x1C),
+    "esc": (win32con.VK_ESCAPE, 0x01),
+    "space": (win32con.VK_SPACE, 0x39),
+    "tab": (win32con.VK_TAB, 0x0F),
+    "shift": (win32con.VK_SHIFT, 0x2A),
+    "ctrl": (win32con.VK_CONTROL, 0x1D),
+    "alt": (win32con.VK_MENU, 0x38),
+}
+
+def _get_hwnd_for_cfg():
+    hwnd = win32gui.FindWindow(None, CFG.window_title)
+    if hwnd == 0:
+        raise RuntimeError(f"Janela '{CFG.window_title}' não encontrada.")
+    return hwnd
+
+def _lparam_for_scancode(scan, extended=False, is_up=False):
+    # Build lParam: repeat count (1) | scanCode<<16 | extended<<24 | context (0) | previous | transition
+    l = 0x00000001 | (scan << 16)
+    if extended:
+        l |= (1 << 24)
+    if is_up:
+        l |= 0xC0000000  # previous state + transition state
+    return l
+
+def press_key_postmessage(key: str, hold: float = 0.08):
+    """Send key to game window using PostMessage with scancode in lParam.
+       key: like 'a', '1', 'f8', 'left', 'mount' etc (lowercase)
+    """
+    if CFG.dry_run:
+        log.info(f"[DRY] press_key_postmessage {key} ({hold}s)")
+        time.sleep(hold)
+        return
+
+    k = (key or "").lower()
+    # If key is a single-char but mapping doesn't exist, try to map from CHAR
+    if k not in KEY_MAP:
+        log.warning(f"[KEY] '{k}' not in KEY_MAP; trying direct VK mapping...")
+        # try direct VK via ord if single char
+        if len(k) == 1:
+            vk = ord(k.upper())
+            scan = 0
+            # best-effort: attempt PostMessage with VK only (may or may not be accepted)
+            try:
+                hwnd = _get_hwnd_for_cfg()
+                win32gui.PostMessage(hwnd, win32con.WM_KEYDOWN, vk, 0)
+                time.sleep(hold)
+                win32gui.PostMessage(hwnd, win32con.WM_KEYUP, vk, 0)
+                return
+            except pywintypes.error as e:
+                log.error(f"[KEY] PostMessage error (fallback VK) for '{k}': {e}")
+                return
+        else:
+            log.error(f"[KEY] sem mapeamento e não é single char: {k}")
+            return
+
+    vk, scan = KEY_MAP[k]
+    # extended? certain keys (right ctrl/alt, arrow numeric keypad) may need extended flag; keep False for most
+    extended = False
+    # Some keys often require extended flag (right-side modifier, numpad, arrow via keypad) — heuristics:
+    if vk in (win32con.VK_RIGHT, win32con.VK_LEFT, win32con.VK_UP, win32con.VK_DOWN):
+        extended = True
+
+    try:
+        hwnd = _get_hwnd_for_cfg()
+        ldown = _lparam_for_scancode(scan, extended=extended, is_up=False)
+        lup = _lparam_for_scancode(scan, extended=extended, is_up=True)
+        win32gui.PostMessage(hwnd, win32con.WM_KEYDOWN, vk, ldown)
+        time.sleep(hold)
+        win32gui.PostMessage(hwnd, win32con.WM_KEYUP, vk, lup)
+        # small safety sleep for game reaction
+        time.sleep(0.02)
+    except pywintypes.error as e:
+        log.error(f"[KEY] PostMessage failed for '{key}': {e}. Executa o script como Administrador e confirma que '{CFG.window_title}' existe.")
+
+# ---------------- Actions (replacing keyboard.* usage) ----------------
 def press_with_jitter(key: str, base: float, jitter: float):
     dur = max(0.0, base + random.uniform(-jitter, jitter))
-    if DRY_RUN:
+    if CFG.dry_run:
         log.info(f"[DRY] hold {key} {dur:.2f}s"); return
-    keyboard.press(key); time.sleep(dur); keyboard.release(key)
+    press_key_postmessage(key, dur)
 
 def press_combo(keys: List[str], key_delay: Tuple[float,float]):
     for k in keys:
-        if DRY_RUN: log.info(f"[DRY] tap {k}")
-        else: keyboard.press_and_release(k)
+        if CFG.dry_run:
+            log.info(f"[DRY] tap {k}")
+        else:
+            press_key_postmessage(k, random.uniform(0.04, 0.12))
         time.sleep(random.uniform(*key_delay))
 
-# ---------------- Estado de batalha ----------------
+# ---------------- Battle detection & helpers (kept original logic) ----------------
 _battle_enter_streak = 0
 _battle_exit_streak  = 0
 _last_active = False
@@ -311,7 +481,6 @@ def battle_active_instant() -> bool:
     text = normalize_for_match(ocr_text_line(gn))
     return name_has_wild(text)
 
-# ---------- Decisão ----------
 def contains_special(text_norm: str) -> bool:
     return any(kw in text_norm for kw in SPECIAL_KEYWORDS)
 
@@ -324,7 +493,7 @@ def decide_target(species: str, is_special: bool):
         return True, species, "target", TARGETS[species]
     return False, "", "non-target", None
 
-# ---------------- Captura de ROIs ----------------
+# ---------------- ROI capture functions ----------------
 def compute_rects():
     cap_win = roi_to_screen(CFG.window_roi, CFG.window_title, CFG.roi_is_absolute)
     name_roi = roi_to_screen(CFG.name_roi, CFG.window_title, CFG.roi_is_absolute)
@@ -349,12 +518,12 @@ def _compute_rects_dynamic():
 def capture_rois():
     cap_win, name_roi, uni = _compute_rects_dynamic()
     frame = _grab_abs(*uni)
-    gray = _to_gray(frame)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     gw = _crop_from_union(gray, cap_win, uni, pad_y=0)
     gn = _crop_from_union(gray, name_roi, uni, pad_y=4)
     return gw, gn
 
-# ---------------- Esperas ----------------
+# ---------------- Wait utilities ----------------
 def wait_until_stable(max_wait: float, settle_ms: int = 450, poll: float = 0.10):
     deadline = time.perf_counter() + max(0.0, float(max_wait))
     last = None
@@ -373,7 +542,7 @@ def wait_until_stable(max_wait: float, settle_ms: int = 450, poll: float = 0.10)
         time.sleep(poll)
 
 def wait_catch_resolution():
-    """Espera após lançar a bola: mínimo + adaptativo; não spamma durante animação."""
+    """Espera após lançar a bola: mínimo + adaptativo; não spamma durante animação de lançamento."""
     min_wait = random.uniform(*CFG.catch_resolve_min_s)
     max_wait = max(CFG.wait_between_combos_s)
     t0 = time.perf_counter()
@@ -387,19 +556,19 @@ def wait_catch_resolution():
     if remaining > 0:
         wait_until_stable(remaining, settle_ms=600, poll=0.10)
 
-# ---------------- Fuga verificada ----------------
+# ---------------- Quick escape (verified) ----------------
 def quick_escape(max_presses: int = 2, check_delay: float = 0.30):
     presses = 0
     while battle_active_instant() and presses < max_presses:
-        if DRY_RUN: log.info(f"[DRY] press {CFG.non_target_key}")
-        else: keyboard.press_and_release(CFG.non_target_key)
+        if CFG.dry_run: log.info(f"[DRY] press {CFG.non_target_key}")
+        else: press_key_postmessage(CFG.non_target_key, 0.08)
         presses += 1
         time.sleep(check_delay)
         if not battle_active_instant():
             break
     log.info(f"[NON-TARGET] Fuga {'OK' if not battle_active_instant() else 'ainda em batalha'} ({presses}x).")
 
-# ---------------- Loop principal ----------------
+# ---------------- Patrol loop (integrated original logic) ----------------
 def patrol_loop():
     stop_ev = threading.Event()
     paused = False
@@ -426,6 +595,7 @@ def patrol_loop():
         log.info(f"[BATTLE TEST] score={sc:.3f} thr={CFG.thr_battle}")
         last_tpl_test = time.time()
 
+    # hotkeys for control (local detection)
     keyboard.on_press_key(STOP_HK, on_stop)
     keyboard.on_press_key(PAUSE_HK, on_pause)
     keyboard.on_press_key(SAVE_TPL_HK, on_save)
@@ -434,11 +604,15 @@ def patrol_loop():
     ocr = OCRWorker(); ocr.start()
 
     log.info(f"[Setup] Ativar mount com tecla '{CFG.mount_key}'")
-    if DRY_RUN: log.info(f"[DRY] press {CFG.mount_key}")
-    else: keyboard.press_and_release(CFG.mount_key); time.sleep(1.0)
+    if CFG.dry_run: log.info(f"[DRY] press {CFG.mount_key}")
+    else:
+        # press mount key once on start
+        press_key_postmessage(CFG.mount_key, 0.10)
+        time.sleep(1.0)
 
     prev_gray_win = None
     cooldown_until = 0.0
+
     while not stop_ev.is_set():
         if paused:
             time.sleep(0.05); continue
@@ -506,9 +680,10 @@ def patrol_loop():
             else:
                 log.info(f"[ENCOUNTER] Não-alvo: '{species_cand or ''}'.")
                 quick_escape()
+                # fallback: manter a pressionar non_target_key até sair
                 while battle_active_instant():
-                    if DRY_RUN: log.info(f"[DRY] press {CFG.non_target_key}")
-                    else: keyboard.press_and_release(CFG.non_target_key)
+                    if CFG.dry_run: log.info(f"[DRY] press {CFG.non_target_key}")
+                    else: press_key_postmessage(CFG.non_target_key, 0.08)
                     log.info("[NON-TARGET] Repetir fuga (fallback).")
                     time.sleep(random.uniform(*CFG.non_target_period_s))
                 time.sleep(random.uniform(*CFG.recover_s))
@@ -520,11 +695,13 @@ def patrol_loop():
                 press_with_jitter(k, CFG.move_base_s, CFG.move_jitter_s)
                 if random.random() < 0.10:
                     time.sleep(random.uniform(0.05,0.12))
-                    if DRY_RUN: log.info(f"[DRY] tap {k}")
-                    else: keyboard.press_and_release(k)
-            move('a'); move('d')
-            if random.random() < 0.08:
-                time.sleep(random.uniform(0.15,0.45))
+                    if CFG.dry_run: log.info(f"[DRY] tap {k}")
+                    else: press_key_postmessage(k, 0.06)
+            # patrol_keys default ["a","d"] but we use whatever in CFG.patrol_keys
+            for k in CFG.patrol_keys:
+                move(k)
+            if random.random() < 0.03:
+                time.sleep(random.uniform(0.02,0.05))
 
         if prev_gray_win is not None:
             mse = float(np.mean((prev_gray_win.astype(np.float32) - gray_win.astype(np.float32)) ** 2))
@@ -575,12 +752,15 @@ if __name__ == "__main__":
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    CFG = load_config(SCRIPT_DIR / args.config)
+    # load config
+    CFG = load_config(pathlib.Path(args.config))
 
+    # ensure dirs
     TEMPLATES_DIR = pathlib.Path(CFG.templates_dir); TEMPLATES_DIR.mkdir(parents=True, exist_ok=True)
     STATS_DIR = pathlib.Path(CFG.stats_dir); STATS_DIR.mkdir(parents=True, exist_ok=True)
 
     DRY_RUN = args.dry_run or CFG.dry_run
+    CFG.dry_run = DRY_RUN
 
     # Logging por sessão (retenção 5)
     LOG_DIR = SCRIPT_DIR / "logs"; LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -593,6 +773,7 @@ if __name__ == "__main__":
     ch = logging.StreamHandler(); ch.setFormatter(fmt); ch.setLevel(logging.INFO)
     log.setLevel(logging.DEBUG); log.addHandler(fh); log.addHandler(ch)
 
+    # rotate old logs
     try:
         logs = sorted(LOG_DIR.glob("bot_*.log"), key=lambda p: p.stat().st_mtime, reverse=True)
         for p in logs[5:]:
@@ -601,6 +782,7 @@ if __name__ == "__main__":
     except Exception:
         pass
 
+    # tesseract path
     tpath = detect_tesseract(CFG)
     if tpath:
         pytesseract.pytesseract.tesseract_cmd = tpath
@@ -615,14 +797,22 @@ if __name__ == "__main__":
     SPECIAL_KEYWORDS = set(CFG.special_keywords)
     TARGETS = CFG.targets
 
+    # stats manager
     stats = SessionStats(STATS_DIR)
     stats.write_snapshot(force=True)
 
-    CAP_WIN, NAME_ROI_S, UNION_RECT = compute_rects()
-    log.info(f"CAP_WIN={CAP_WIN} NAME_ROI={NAME_ROI_S} UNION={UNION_RECT}")
+    # preview compute rects once
+    try:
+        CAP_WIN, NAME_ROI_S, UNION_RECT = compute_rects()
+        log.info(f"CAP_WIN={CAP_WIN} NAME_ROI={NAME_ROI_S} UNION={UNION_RECT}")
+    except Exception as e:
+        log.warning(f"Erro a computar rects iniciais: {e}")
 
     try:
         patrol_loop()
     except KeyboardInterrupt:
         stats.write_snapshot(force=True)
         log.info("Interrompido por teclado.")
+    except Exception as e:
+        log.exception(f"Erro fatal no main loop: {e}")
+        stats.write_snapshot(force=True)

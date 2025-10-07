@@ -1,59 +1,103 @@
 {
   "window_title": "PROClient",
   "roi_is_absolute": false,
-  "name_roi": [834,136,532,50],
-  "window_roi": [1388,684,348,265],
-
-
+  "name_roi": [
+    846,
+    235,
+    331,
+    32
+  ],
+  "window_roi": [
+    1288,
+    653,
+    257,
+    198
+  ],
   "battle_template_name": "default",
-  "thr_battle": 0.90,
+  "thr_battle": 0.9,
   "battle_enter_consec": 2,
   "battle_exit_consec": 2,
-
-  "poll_interval_s": 0.20,
+  "poll_interval_s": 0.2,
   "change_mse_thr": 15.0,
-
   "move_base_s": 0.45,
-  "move_jitter_s": 0.10,
-  "key_delay_s": [0.45, 0.95],
-
-  "encounter_delay_s":     [1.0, 2.0],
-  "wait_between_combos_s": [8.0, 9.0],
-  "post_combo2_verify_s":  [1.0, 1.8],
-  "recover_s":             [0.5, 1.0],
-  "non_target_period_s":   [1.8, 2.3],
-
-  // Portabilidade e comportamento
+  "move_jitter_s": 0.1,
+  "key_delay_s": [
+    0.05,
+    0.01
+  ],
+  "encounter_delay_s": [
+    1.0,
+    2.0
+  ],
+  "wait_between_combos_s": [
+    8.0,
+    9.0
+  ],
+  "post_combo2_verify_s": [
+    1.0,
+    1.8
+  ],
+  "recover_s": [
+    0.05,
+    0,
+    1
+  ],
+  "non_target_period_s": [
+    1.8,
+    2.0
+  ],
   "tesseract_cmd": null,
   "templates_dir": "templates/battle",
   "stats_dir": "stats",
-  "mount_key": "1",
   "non_target_key": "4",
-  "patrol_keys": ["a","d"],
+  "patrol_keys": [
+    "a",
+    "d"
+  ],
   "dry_run": false,
   "stats_flush_s": 5.0,
-
-  // Logging rotativo
   "log_level": "INFO",
   "log_file": "bot.log",
   "log_max_bytes": 1048576,
   "log_backup_count": 3,
-
-
-  "target_combos": { "setup": ["1","2"], "catch": ["3","1"] },
-  "targets": {
-    "ralts":       { "catch": ["1","1","3","1"] },
-    "ferroseed":   { "setup": ["1","2"] },
-    "vulpix":      { "setup": ["1","2"] },
-    "gastly":      { "setup": ["1","2"] },
-    "psyduck":     { "setup": ["1","2"] },
-    "chansey":     { "catch": ["1","1","3","1"] },
-    "mimejr":      { "setup": ["1","2"] },
-    "mankey":      { "catch": ["3","1"] },
-    "larvitar":    { "catch": ["1","2","1","1","3","1"] },
-    "pupitar":     { "catch": ["1","2","1","1","3","1"] },
-    "togepi":     { "setup": ["1","2"] }
-
+  "target_combos": {
+    "setup": [
+      "1",
+      "2"
+    ],
+    "catch": [
+      "3",
+      "1"
+    ]
   },
-  "special_keywords": ["shiny","summer"]
-  }
+  "targets": {
+    "magmar": {
+      "setup": [
+        "1",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "charmander": {
+      "setup": [
+        "1",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    "treecko": {
+      "setup": [
+        "1",
+        "2",
+        "3",
+        "1"
+      ]
+    }
+  },
+  "special_keywords": [
+    "shiny",
+    "summer"
+  ]
+}
